@@ -25,8 +25,8 @@ VisionSpeakAI is an innovative application that combines real-time webcam video 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/EyeSpeak-AI.git
-    cd EyeSpeak-AI
+    git clone git@github.com:YugantGotmare/VisionSpeakAI.git
+    cd VisionSpeakAI
     ```
 
 2. Create and activate a virtual environment (optional but recommended):
@@ -40,12 +40,8 @@ VisionSpeakAI is an innovative application that combines real-time webcam video 
     pip install -r requirements.txt
     ```
 
-4. Set up Google Cloud API:
-    - Create a project on Google Cloud Platform and enable the Speech-to-Text API.
-    - Download the credentials JSON file and set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable to point to this file.
-    - Set up the Google Generative AI API and obtain the API key.
-
-5. Create a `.env` file in the project directory and add your Google API key:
+4. Create a `.env` file in the project directory and add your Google API key:
+   Visit https://aistudio.google.com/app/apikey and create an api key
     ```
     GOOGLE_API_KEY=your_google_api_key
     ```
